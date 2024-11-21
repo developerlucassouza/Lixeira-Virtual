@@ -1,0 +1,326 @@
+:root {
+    --verde: #408C33;
+    --azul: #0A96A8;
+    --branco: #FFFFFF;
+}
+
+.bg-verde {
+    background-color: var(--verde);
+}
+
+.bg-azul {
+    background-color: var(--azul);
+}
+
+.bg-tech-1 {
+    background-image: url('imgs/fundo-tech.jpg');
+}
+
+.bg-tech-2 {
+    background-image: url('imgs/fundo-programacao-2.jpg');
+}
+
+.bg-tech-1,
+.bg-tech-2 {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+a:link.bg-instagram,
+a:visited.bg-instagram {
+    background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+    background-size: 200% 200%;
+    background-position: left;
+    color: white;
+    transition: background-position 0.5s ease;
+}
+
+a:hover.bg-instagram {
+    background-position: right;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+body {
+    background-image: url('imgs/fundo-tech.jpg');
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+table {
+    margin-left: 20px;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+header {
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    padding: 0px 10px !important;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+header * {
+    height: 7vh;
+    line-height: 7vh;
+}
+
+header #menu-icon {
+    cursor: pointer;
+    font-size: 5vh;
+    line-height: 7vh;
+}
+
+header > a:link,
+header > a:visited {
+    color: var(--branco);
+}
+
+header > a:hover,
+header > a:active {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+header h2 {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 767px) {
+    header h2 {
+        display: none;
+    }
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    align-items: center;
+    display: inline-block;
+    list-style: none;
+    height: 7vh;
+}
+
+header ul li * {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+header ul li button {
+    padding: 0 !important;
+    margin: 0px 10px;
+    margin-top: -4.5px;
+}
+
+header ul li .dropdown-menu {
+    border-radius: 10px;
+    height: auto;
+    left: 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    top: 7vh !important;
+    transform: translateX(-50%) !important;
+}
+
+header ul li a:link,
+header ul li a:visited {
+    color: var(--branco);
+    height: auto;
+    line-height: 100% !important;
+    padding: 10px 20px;
+}
+
+header ul li a:hover,
+header ul li a:active {
+    background-color: var(--verde) !important;
+    border-radius: 10px;
+    color: var(--branco) !important;
+}
+
+
+
+
+
+
+
+
+
+
+div.menu {
+    background-color: #222222;
+    height: 93vh;
+    padding: 0;
+    padding-bottom: 50px;
+    overflow-y: auto;
+    position: fixed;
+    z-index: 98;
+}
+
+@media screen and (max-width: 767px) {
+    #menu {
+        display: none;
+        width: 110vw;
+    }
+}
+
+div.menu p {
+    color: #CCCCCC;
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin: 10px 25px;
+}
+
+div.menu a:link,
+div.menu a:visited {
+    display: block;
+    color: #CCCCCC;
+    padding: 5px 10px;
+    padding-left: 25px;
+    transition: 0.5s;
+}
+
+div.menu a:hover,
+div.menu a:active {
+    background-color: #333333;
+    text-decoration: none;
+}
+
+div.menu a.ativo {
+    background-color: var(--verde);
+}
+
+div.menu i {
+    text-align: center;
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main.container {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    main.container {
+        margin-left: 16.7vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    main.container {
+        padding: 10px 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+div.lesson {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+}
+
+div.lesson h1 {
+    text-align: center;
+}
+
+div.lesson h2 {
+    margin: 10px 30px;
+}
+
+div.lesson p {
+    margin: 10px 20px;
+}
+
+div.lesson hr {
+    background-color: black;
+    margin: 20px 0;
+}
+
+div.lesson ul {
+    margin: 10px 20px;
+}
+
+div.lesson div.code {
+    background-color: #222222;
+    border-left: 10px solid var(--verde);
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+}
+
+@media screen and (max-width: 767px) {
+    div.lesson div.code {
+        width: 100%;
+    }
+}
+
+div.lesson div.code pre {
+    color: var(--azul);
+    margin: 0 !important;
+}
+
+div.lesson div.code em {
+    background-color: rgba(0, 0, 100, 0.5);
+    padding: 2px;
+}
+
+div.lesson div.code pre span.comentario {
+    color: var(--verde);
+}
+
+code {
+    background-color: rgba(0, 220, 220);
+    color: rgb(0, 0, 150);
+}
