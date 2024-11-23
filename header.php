@@ -45,15 +45,15 @@ $caminho = 'http://localhost/lixeiravirtual/';
                 <div class="dropdown-menu bg-dark text-light" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="<?php echo $caminho; ?>html/"><i class="devicon-html5-plain"></i> HTML</a>
 
-                    <!-- <a class="dropdown-item" href="<?php echo $caminho; ?>css/"><i class="devicon-css3-plain"></i> CSS</a> -->
+                    <a class="dropdown-item" href="<?php echo $caminho; ?>css/"><i class="devicon-css3-plain"></i> CSS</a>
 
-                    <!-- <a class="dropdown-item" href="<?php echo $caminho; ?>javascript/"><i class="devicon-javascript-plain"></i> JavaScript</a> -->
+                    <a class="dropdown-item" href="<?php echo $caminho; ?>javascript/"><i class="devicon-javascript-plain"></i> JavaScript</a>
 
                     <!-- <a class="dropdown-item" href="<?php echo $caminho; ?>php/"><i class="devicon-php-plain"></i> PHP</a> -->
 
                     <!-- <a class="dropdown-item" href="<?php echo $caminho; ?>mysql/"><i class="devicon-mysql-original"></i> MySQL</a> -->
 
-                    <a class="dropdown-item" href="<?php echo $caminho; ?>python/"><i class="devicon-python-plain"></i> Python</a>
+                    <!-- <a class="dropdown-item" href="<?php echo $caminho; ?>python/"><i class="devicon-python-plain"></i> Python</a> -->
 
                     <!-- <a class="dropdown-item" href="<?php echo $caminho; ?>java/"><i class="devicon-java-plain"></i> Java</a> -->
 

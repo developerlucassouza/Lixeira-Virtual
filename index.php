@@ -150,26 +150,17 @@ include_once 'header.php';
             <img src="imgs/logo_html.png" alt="Logo HTML5">
             <a href="html/" class="bg-dark text-light">Aprenda HTML <i class="devicon-html5-plain"></i></a>
         </div>
-
         <div class="col-md-4 bg-tech-2">
-            <img src="imgs/logo_python.png" alt="Logo Python">
-            <a href="#" class="bg-dark text-light">Aprenda Python <i class="devicon-python-plain"></i></a>
-        </div>
-
-        <div class="col-md-4 bg-tech-1">
-            <img src="imgs/vermais.png" alt="Ver Mais">
-            <a href="#" class="bg-dark text-light">Ver Mais...</a>
-        </div>
-
-
-
-        <!-- <div class="col-md-4 bg-tech-2">
             <img src="imgs/logo_css.png" alt="Logo CSS3">
             <a href="#" class="bg-dark text-light">Aprenda CSS <i class="devicon-css3-plain"></i></a>
-        </div> -->
-        <!-- <div class="col-md-4 bg-tech-1">
+        </div>
+        <div class="col-md-4 bg-tech-1">
             <img src="imgs/logo_javascript.png" alt="Logo JavaScript">
             <a href="#" class="bg-dark text-light">Aprenda JavaScript <i class="devicon-javascript-plain"></i></a>
+        </div>
+        <!-- <div class="col-md-4 bg-tech-2">
+            <img src="imgs/logo_python.png" alt="Logo Python">
+            <a href="#" class="bg-dark text-light">Aprenda Python <i class="devicon-python-plain"></i></a>
         </div> -->
         <!-- <div class="col-md-4 bg-tech-2">
             <img src="imgs/logo_php.png" alt="Logo PHP">
@@ -178,6 +169,11 @@ include_once 'header.php';
         <!-- <div class="col-md-4 bg-tech-1">
             <img src="imgs/logo_mysql.png" alt="Logo MySQL">
             <a href="#" class="bg-dark text-light">Aprenda MySQL <i class="devicon-mysql-original"></i></a>
+        </div> -->
+
+        <!-- <div class="col-md-4 bg-tech-1">
+            <img src="imgs/vermais.png" alt="Ver Mais">
+            <a href="#" class="bg-dark text-light">Ver Mais...</a>
         </div> -->
         
     </div>
