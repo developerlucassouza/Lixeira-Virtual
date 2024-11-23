@@ -93,6 +93,22 @@ $caminho = 'http://localhost/lixeiravirtual/';
                         <i class="devicon-windows8-original"></i> Windows 10</a>
                     <a class="dropdown-item" href="#">
                         <i class="devicon-windows8-original"></i> Windows 8.1</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 7</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows Vista</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows XP</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 98</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 95</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 3.0</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 2.0</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 1.0</a>
                 </div>
             </li>
         </ul>
