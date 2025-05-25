@@ -277,6 +277,12 @@ div.lesson {
     }
 }
 
+@media screen and (min-width: 768px) {
+    div.lesson {
+        width: 80%;
+    }
+}
+
 div.lesson h1 {
     text-align: center;
 }

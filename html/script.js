@@ -98,7 +98,7 @@ pages.innerHTML += '<a href="p.php">HTML &ltp&gt</a>'
 pages.innerHTML += '<a href="pre.php">HTML &ltpre&gt</a>'
 
 // Q
-pages.innerHTML += '<a href="q.php">HTML &ltq&gt</a>'
+// pages.innerHTML += '<a href="q.php">HTML &ltq&gt</a>'
 
 // S
 pages.innerHTML += '<a href="script.php">HTML &ltscript&gt</a>'
@@ -108,18 +108,18 @@ pages.innerHTML += '<a href="small.php">HTML &ltsmall&gt</a>'
 pages.innerHTML += '<a href="span.php">HTML &ltspan&gt</a>'
 pages.innerHTML += '<a href="strong.php">HTML &ltstrong&gt</a>'
 pages.innerHTML += '<a href="style.php">HTML &ltstyle&gt</a>'
-pages.innerHTML += '<a href="sub.php">HTML &ltsub&gt</a>'
+// pages.innerHTML += '<a href="sub.php">HTML &ltsub&gt</a>'
 pages.innerHTML += '<a href="summary.php">HTML &ltsummary&gt</a>'
-pages.innerHTML += '<a href="sup.php">HTML &ltsup&gt</a>'
+// pages.innerHTML += '<a href="sup.php">HTML &ltsup&gt</a>'
 
 // T
 pages.innerHTML += '<a href="table.php">HTML &lttable&gt</a>'
-pages.innerHTML += '<a href="tbody.php">HTML &lttbody&gt</a>'
+// pages.innerHTML += '<a href="tbody.php">HTML &lttbody&gt</a>'
 pages.innerHTML += '<a href="td.php">HTML &lttd&gt</a>'
 pages.innerHTML += '<a href="textarea.php">HTML &lttextarea&gt</a>'
-pages.innerHTML += '<a href="tfoot.php">HTML &lttfoot&gt</a>'
+// pages.innerHTML += '<a href="tfoot.php">HTML &lttfoot&gt</a>'
 pages.innerHTML += '<a href="th.php">HTML &ltth&gt</a>'
-pages.innerHTML += '<a href="thead.php">HTML &ltthead&gt</a>'
+// pages.innerHTML += '<a href="thead.php">HTML &ltthead&gt</a>'
 pages.innerHTML += '<a href="title.php">HTML &lttitle&gt</a>'
 pages.innerHTML += '<a href="tr.php">HTML &lttr&gt</a>'
 
@@ -127,7 +127,7 @@ pages.innerHTML += '<a href="tr.php">HTML &lttr&gt</a>'
 pages.innerHTML += '<a href="ul.php">HTML &ltul&gt</a>'
 
 // V
-pages.innerHTML += '<a href="video.php">HTML &ltvideo&gt</a>'
+// pages.innerHTML += '<a href="video.php">HTML &ltvideo&gt</a>'
 
 // MOLDE
 // pages.innerHTML += '<a href="#">&lt > HTML</a>';

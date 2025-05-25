@@ -152,7 +152,7 @@ include_once 'header.php';
         </div>
         <div class="col-md-4 bg-tech-2">
             <img src="imgs/logo_css.png" alt="Logo CSS3">
-            <a href="#" class="bg-dark text-light">Aprenda CSS <i class="devicon-css3-plain"></i></a>
+            <a href="css/" class="bg-dark text-light">Aprenda CSS <i class="devicon-css3-plain"></i></a>
         </div>
         <div class="col-md-4 bg-tech-1">
             <img src="imgs/logo_javascript.png" alt="Logo JavaScript">
