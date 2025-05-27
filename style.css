@@ -1,6 +1,7 @@
 :root {
     --verde: #408C33;
     --azul: #0A96A8;
+    --azul-claro: #00c1da;
     --branco: #FFFFFF;
 }
 
@@ -57,10 +58,6 @@ body {
     background-image: url('imgs/fundo-tech.jpg');
     background-attachment: fixed;
     overflow-x: hidden;
-}
-
-table {
-    margin-left: 20px;
 }
 
 p {
@@ -164,6 +161,35 @@ header ul li a:active {
     background-color: var(--verde) !important;
     border-radius: 10px;
     color: var(--branco) !important;
+}
+
+
+
+
+table {
+    margin: auto;
+}
+
+table td,
+table th {
+    border: 1px solid black;
+}
+
+td {
+    padding: 5px 20px;
+}
+
+th {
+    background-color: var(--verde);
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--branco);
+}
+
+table tr:nth-child(odd) {
+    background-color: var(--azul-claro);
 }
 
 
