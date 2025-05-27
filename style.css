@@ -313,7 +313,8 @@ div.lesson h1 {
     text-align: center;
 }
 
-div.lesson h2 {
+div.lesson h2,
+div.lesson h3 {
     margin: 10px 30px;
 }
 
