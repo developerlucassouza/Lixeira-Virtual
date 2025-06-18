@@ -288,7 +288,7 @@ main.container {
 
 
 div.lesson {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(240, 240, 240, 0.85);
     border-radius: 3px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     display: block;
@@ -331,6 +331,10 @@ div.lesson ul {
     margin: 10px 20px;
 }
 
+div.lesson ul li {
+    margin-bottom: 10px;
+}
+
 div.lesson div.code {
     background-color: #222222;
     border-left: 10px solid var(--verde);
@@ -361,6 +365,7 @@ div.lesson div.code pre span.comentario {
 }
 
 code {
-    background-color: rgba(0, 220, 220);
-    color: rgb(0, 0, 150);
+    background-color: rgba(0, 200, 200);
+    color: rgb(0, 0, 120);
+    font-weight: bolder;
 }
