@@ -13,7 +13,7 @@ include_once '../header.php';
     <h1>text-decoration CSS</h1>
     <p>A propriedade <code>text-decoration</code> é utilizada para controlar a decoração de texto, como sublinhado,
         tachado (linha no meio do texto) e texto piscante. Ela é frequentemente usada para estilizar links
-        (<code><a href="../html/a.php">&lta></a></code>) e outros elementos de texto.</p>
+        (<code>&lta></code>) e outros elementos de texto.</p>
 
     <div class="code">
         <pre>text-decoration: <em>valor</em>;   </pre>
