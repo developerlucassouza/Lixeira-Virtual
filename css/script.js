@@ -86,7 +86,7 @@ pages.innerHTML += '<a href="display.php">display </a>';
 pages.innerHTML += '<a href="font-family.php">font-family </a>';
 pages.innerHTML += '<a href="font-size.php">font-size </a>';
 pages.innerHTML += '<a href="font-style.php">font-style </a>';
-pages.innerHTML += '<a href="font-variant.php">font-variant </a>';
+// pages.innerHTML += '<a href="font-variant.php">font-variant </a>';
 pages.innerHTML += '<a href="font-weight.php">font-weight </a>';
 
 // H
