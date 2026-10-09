@@ -291,7 +291,8 @@ main.container {
 
 
 
-div.lesson {
+div.lesson,
+div.so {
     background-color: rgba(240, 240, 240, 0.85);
     border-radius: 3px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -301,19 +302,22 @@ div.lesson {
 }
 
 @media screen and (max-width: 767px) {
-    div.lesson {
+    div.lesson,
+    div.so {
         padding-left: 30px;
         width: 100%;
     }
 }
 
 @media screen and (min-width: 768px) {
-    div.lesson {
+    div.lesson,
+    div.so {
         width: 80%;
     }
 }
 
-div.lesson h1 {
+div.lesson h1,
+div.so h1 {
     text-align: center;
 }
 
@@ -322,7 +326,8 @@ div.lesson h3 {
     margin: 10px 30px;
 }
 
-div.lesson p {
+div.lesson p,
+div.so p {
     margin: 10px 20px;
 }
 
@@ -388,6 +393,32 @@ div.lesson div.output pre {
 
 
 
+div.so img.exemplo-so {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+div.so a.download {
+    background-color: greenyellow;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    transition-duration: 0.5s;
+    width: 90%;
+}
+
+div.so a.download:hover {
+    background-color: rgb(143, 213, 38);
+}
+
+
+
+
+
 
 
 
@@ -401,3 +432,6 @@ code a {
     color: rgb(0, 0, 120);
     text-decoration: underline;
 }
+
+
+

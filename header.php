@@ -1,5 +1,9 @@
 <?php
-$caminho = 'http://localhost/lixeiravirtual/';
+$caminho = explode('/', $_SERVER['HTTP_HOST'])[0];
+if ($caminho == 'localhost') {
+    $caminho = 'localhost/lixeiravirtual';
+}
+$caminho = $_SERVER['REQUEST_SCHEME'] . '://' . $caminho . '/';
 ?>
 
 <!DOCTYPE html>
@@ -29,6 +33,17 @@ $caminho = 'http://localhost/lixeiravirtual/';
     <link rel="stylesheet" href="<?php echo $caminho ?>style.css">
 </head>
 
+
+<script>
+    // FUNÇÃO PARA DESATIVAR O MENU EM PÁGINAS QUE NÂO DEVEM TER O MENU ABERTO INICIALMENTE
+    function desativarMenu() {
+        document.querySelector('#menu').style.display = 'none';
+        if (window.innerWidth >= 768) {
+            document.querySelector('main.container').style.marginLeft = 'auto';
+        }
+    }
+</script>
+
 <body>
 
     <header class="nav bg-dark text-light">
@@ -43,11 +58,12 @@ $caminho = 'http://localhost/lixeiravirtual/';
                     <i class="fa-solid fa-chalkboard-user h-auto"></i> Cursos
                 </button>
                 <div class="dropdown-menu bg-dark text-light" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="<?php echo $caminho; ?>"><i class="devicon-html5-plain"></i> HTML</a>
+                    <a class="dropdown-item" href="<?= $caminho; ?>html/"><i class="devicon-html5-plain"></i> HTML</a>
 
-                    <a class="dropdown-item" href="<?php echo $caminho; ?>"><i class="devicon-css3-plain"></i> CSS</a>
+                    <a class="dropdown-item" href="<?= $caminho; ?>css/"><i class="devicon-css3-plain"></i> CSS</a>
 
-                    <a class="dropdown-item" href="<?php echo $caminho; ?>"><i class="devicon-javascript-plain"></i> JavaScript</a>
+                    <a class="dropdown-item" href="<?= $caminho; ?>javascript/"><i class="devicon-javascript-plain"></i>
+                        JavaScript</a>
 
                     <!-- <a class="dropdown-item" href="<?php echo $caminho; ?>php/"><i class="devicon-php-plain"></i> PHP</a> -->
 
@@ -97,8 +113,8 @@ $caminho = 'http://localhost/lixeiravirtual/';
                         <i class="devicon-windows8-original"></i> Windows 7</a> -->
                     <!-- <a class="dropdown-item" href="#">
                         <i class="devicon-windows8-original"></i> Windows Vista</a> -->
-                    <a class="dropdown-item" href="<?php $caminho ?>sistemas-operacionais/winxp.php>
-                        <i class="devicon-windows8-original"></i> Windows XP</a>
+                    <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/winxp.php>
+                        <i class=" devicon-windows8-original"></i> Windows XP</a>
                     <!-- <a class="dropdown-item" href="#">
                         <i class="devicon-windows8-original"></i> Windows 98</a> -->
                     <!-- <a class="dropdown-item" href="#">
@@ -119,9 +135,11 @@ $caminho = 'http://localhost/lixeiravirtual/';
     <div class="row">
         <div id="menu" class="menu col-md-2">
             <p>Por Onde Começar?</p>
-            <a href="<?php echo $caminho ?>html/"><i class="devicon-html5-plain"></i> HTML</a>
-            <a href="<?php echo $caminho ?>css/"><i class="devicon-css3-plain"></i> CSS</a>
-            <a href="<?php echo $caminho ?>javascript/"><i class="devicon-javascript-plain"></i> JavaScript</a>
+            <a href="<?= $caminho ?>html/"><i class="devicon-html5-plain"></i> HTML</a>
+            <a href="<?= $caminho ?>css/"><i class="devicon-css3-plain"></i> CSS</a>
+            <a href="<?= $caminho ?>javascript/"><i class="devicon-javascript-plain"></i> JavaScript</a>
+            <a href="<?= $caminho ?>sistemas-operacionais/"><i class="fa-brands fa-windows"></i> Sistemas
+                Operacionais</a>
         </div>
 
         <!-- AJUSTAR TAMANHO DO MENU -->

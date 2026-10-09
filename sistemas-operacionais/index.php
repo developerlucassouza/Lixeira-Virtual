@@ -1,12 +1,12 @@
 <?php
-include_once '../../header.php';
+include_once '../header.php';
 ?>
 
 <style>
     body {
         padding-bottom: 100px;
     }
-    h2 {
+    h3 {
         background-color: black;
         color: white;
         margin: 0;
@@ -16,7 +16,7 @@ include_once '../../header.php';
 
     div.col-md-4 {
         align-items: center;
-        margin: 10px 0;
+        
     }
 
     img {
@@ -26,7 +26,9 @@ include_once '../../header.php';
     }
 
     #sos {
+        margin: 0 auto;
         margin-top: 100px;
+        padding: 0;
     }
 
     @media screen and (orientation: portrait) {
@@ -40,7 +42,7 @@ include_once '../../header.php';
 
 <main id="sos" class="container">
 
-    <h2>Windows</h2>
+    <h3>Windows</h2>
 
     <div class="row">
         <div class="col-md-4"><a href="win11.php"><img src="logos_so/logo_win11.png" alt="Windows 11"></a></div>
@@ -54,7 +56,7 @@ include_once '../../header.php';
         <div class="col-md-4"></div>
     </div>
 
-    <h2>Linux</h2>
+    <h3>Linux</h2>
 
     <div class="row">
         <div class="col-md-4"><a href="ubuntu.php"><img src="logos_so/logo_ubuntu.png" alt="Ubuntu"></a></div>
@@ -64,7 +66,7 @@ include_once '../../header.php';
         </div>
     </div>
 
-    <h2>Hiren's Boot</h2>
+    <h3>Hiren's Boot</h2>
 
     <div class="row">
         <div class="col-md-4"></div>
@@ -76,5 +78,5 @@ include_once '../../header.php';
 </main>
 
 <?php
-include_once '../../footer.php';
+include_once '../footer.php';
 ?>

@@ -187,7 +187,7 @@ include_once 'header.php';
 
 <script>
     document.querySelector('main.container').className = '';
-    document.querySelector('#menu').style.display = 'none';
+    desativarMenu();
 </script>
 
 <?php
