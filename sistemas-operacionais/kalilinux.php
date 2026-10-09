@@ -1,10 +1,10 @@
 <?php
-include_once '../../header.php';
+include_once '../header.php';
 ?>
 
-<main id="so">
+<div class="so">
         <h1>Kali Linux</h1>
-        <img src="imgs/kalilinux-areadetrabalho.png" alt="Área de Trabalho do Windows 7">
+        <img src="imgs/kalilinux-areadetrabalho.png" class="exemplo-so" alt="Área de Trabalho do Windows 7">
 
         <p>O Kali Linux é uma distribuição Linux especializada projetada para testes de segurança, auditoria de sistemas
             e penetração. Ele é amplamente utilizado por profissionais de segurança cibernética, hackers éticos, equipes
@@ -42,9 +42,9 @@ include_once '../../header.php';
             cibernética, testadores de penetração e aqueles que têm um interesse genuíno em aprender sobre a segurança
             de sistemas e redes.</p>
 
-        <a href="https://encurtalink.online/94WwLS4Qt" target="_blank">Baixar Iso Kali Linux</a>
+        <a href="https://encurtalink.online/94WwLS4Qt" class="download" target="_blank">Baixar Iso Kali Linux</a>
     </main>
 
 <?php
-include_once '../../footer.php';
+include_once '../footer.php';
 ?>

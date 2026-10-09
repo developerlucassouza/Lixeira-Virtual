@@ -1,10 +1,10 @@
 <?php
-include_once '../../header.php';
+include_once '../header.php';
 ?>
 
-<main id="so">
+<div class="so">
         <h1>Linux Mint</h1>
-        <img src="imgs/linuxmint-areadetrabalho.png" alt="Área de Trabalho do Windows 7">
+        <img src="imgs/linuxmint-areadetrabalho.png" class="exemplo-so" alt="Área de Trabalho do Windows 7">
 
         <p>O Linux Mint é uma distribuição de sistema operacional baseada em Linux que se destaca por sua usabilidade,
             estabilidade e foco em proporcionar uma experiência de desktop amigável para os usuários. Ele é projetado
@@ -46,9 +46,9 @@ include_once '../../header.php';
             no mundo do Linux. Ele oferece uma alternativa atraente para aqueles que desejam experimentar o Linux sem
             ter que se familiarizar imediatamente com as complexidades de algumas outras distribuições.</p>
 
-        <a href="https://encurtalink.online/X9QzAXRN" target="_blank">Baixar Iso Linux Mint</a>
+        <a href="https://encurtalink.online/X9QzAXRN" class="download" target="_blank">Baixar Iso Linux Mint</a>
     </main>
 
 <?php
-include_once '../../footer.php';
+include_once '../footer.php';
 ?>

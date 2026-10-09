@@ -2,9 +2,9 @@
 include_once '../header.php';
 ?>
 
-<div class="lesson">
+<div class="so">
         <h1>Windows 7</h1>
-        <img src="imgs/win7-areadetrabalho.webp" alt="Área de Trabalho do Windows 7">
+        <img src="imgs/win7-areadetrabalho.webp" class="exemplo-so" alt="Área de Trabalho do Windows 7">
 
         <p>O Windows 7 foi um sistema operacional desenvolvido pela Microsoft e lançado em 2009 como sucessor do Windows Vista. Ele rapidamente se tornou um dos sistemas operacionais mais populares e amplamente adotados em todo o mundo devido às melhorias significativas em relação ao seu antecessor.</p>
 
@@ -21,7 +21,7 @@ include_once '../header.php';
 <p>Embora o Windows 7 tenha sido muito elogiado, é importante observar que ele atingiu o fim do suporte da Microsoft em janeiro de 2020, o que significa que não recebe mais atualizações de segurança e não é mais recomendado para uso em ambientes onde a segurança é uma preocupação primordial. Recomenda-se que os usuários migrem para versões mais recentes do sistema operacional, como o Windows 10, para manter seus dispositivos protegidos e atualizados.</p>
         
 
-        <a href="https://encurtalink.online/4tchwcGa" target="_blank">Baixar Iso Windows 7</a>
+        <a href="https://encurtalink.online/4tchwcGa" class="download" target="_blank">Baixar Iso Windows 7</a>
     </div>
 
 <?php

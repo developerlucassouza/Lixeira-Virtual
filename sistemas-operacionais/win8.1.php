@@ -1,10 +1,10 @@
 <?php
-include_once '../../header.php';
+include_once '../header.php';
 ?>
 
-<main id="so">
+<div class="so">
         <h1>Windows 8.1</h1>
-        <img src="imgs/win81-areadetrabalho.jpg" alt="Área de Trabalho do Windows 8.1">
+        <img src="imgs/win81-areadetrabalho.jpg" class="exemplo-so" alt="Área de Trabalho do Windows 8.1">
         <p>O Windows 8.1 é um sistema operacional desenvolvido pela Microsoft, lançado como sucessor direto do Windows 8 em outubro de 2013. Ele representa uma evolução do Windows 8, trazendo melhorias, ajustes e algumas novas características para a experiência do usuário. Aqui está uma descrição geral do Windows 8.1:</p>
 
 <p>
@@ -49,9 +49,9 @@ include_once '../../header.php';
 
 <p>Em resumo, o Windows 8.1 trouxe melhorias significativas em relação ao Windows 8, atendendo às preocupações dos usuários e aprimorando a experiência do usuário, especialmente para aqueles que usavam dispositivos com tela sensível ao toque. Ele procurou equilibrar a interface Moderna com a interface de desktop tradicional, oferecendo uma experiência mais integrada e versátil para uma variedade de dispositivos.</p>
 
-        <a href="https://encurtalink.online/WaDrfc7" target="_blank">Baixar Iso Windows 8.1</a>
+        <a href="https://encurtalink.online/WaDrfc7" class="download" target="_blank">Baixar Iso Windows 8.1</a>
     </main>
 
 <?php
-include_once '../../footer.php';
+include_once '../footer.php';
 ?>

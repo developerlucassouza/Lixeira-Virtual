@@ -2,9 +2,9 @@
 include_once '../header.php';
 ?>
 
-<main id="so">
+<div class="so">
         <h1>Windows XP</h1>
-        <img src="imgs/winxp-areadetrabalho.jpg" alt="Área de Trabalho do Windows XP">
+        <img src="imgs/winxp-areadetrabalho.jpg" class="exemplo-so" alt="Área de Trabalho do Windows XP">
 
         <p>O Windows XP foi um sistema operacional icônico desenvolvido pela Microsoft e lançado em 2001, representando um grande marco na história da computação pessoal. Ele se tornou um dos sistemas operacionais mais populares e amplamente usados, sendo uma referência por muitos anos.</p>
 
@@ -21,7 +21,7 @@ include_once '../header.php';
 <p>É importante notar que o suporte estendido para o Windows XP foi encerrado pela Microsoft em abril de 2014, o que significa que o sistema operacional não recebe mais atualizações de segurança. Portanto, o uso contínuo do Windows XP em computadores conectados à Internet é desaconselhado devido a preocupações de segurança. Recomenda-se a migração para sistemas operacionais mais recentes e suportados para garantir a proteção e a funcionalidade adequadas.</p>
         
 
-        <a href="https://filedollar.top/EL73g2Dym9Ba" target="_blank">Baixar Iso Windows XP</a>
+        <a href="https://filedollar.top/EL73g2Dym9Ba" class="download" target="_blank">Baixar Iso Windows XP</a>
     </main>
 
 <?php

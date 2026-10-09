@@ -1,10 +1,10 @@
 <?php
-include_once '../../header.php';
+include_once '../header.php';
 ?>
 
-<main id="so">
+<div class="so">
         <h1>Ubuntu</h1>
-        <img src="imgs/ubuntu-areadetrabalho.jpg" alt="Área de Trabalho do Windows 7">
+        <img src="imgs/ubuntu-areadetrabalho.jpg" class="exemplo-so" alt="Área de Trabalho do Windows 7">
 
         <p>O Ubuntu é um sistema operacional de código aberto baseado em Linux que se tornou amplamente popular por sua
             facilidade de uso, estabilidade e forte comunidade de desenvolvedores e usuários. Ele é projetado para ser
@@ -45,9 +45,9 @@ include_once '../../header.php';
             oferece uma experiência de usuário amigável, uma grande variedade de aplicativos e uma base sólida para
             tarefas variadas, desde navegar na web até desenvolver software e administrar servidores.</p>
 
-        <a href="https://encurtalink.online/DpJFnhgFOs" target="_blank">Baixar Iso Ubuntu</a>
+        <a href="https://encurtalink.online/DpJFnhgFOs" class="download" target="_blank">Baixar Iso Ubuntu</a>
     </main>
 
 <?php
-include_once '../../footer.php';
+include_once '../footer.php';
 ?>
