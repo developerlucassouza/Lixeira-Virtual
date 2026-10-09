@@ -304,8 +304,7 @@ div.so {
 @media screen and (max-width: 767px) {
     div.lesson,
     div.so {
-        padding-left: 30px;
-        width: 60%;
+        width: 85%;
     }
 }
 
