@@ -43,11 +43,11 @@ $caminho = 'http://localhost/lixeiravirtual/';
                     <i class="fa-solid fa-chalkboard-user h-auto"></i> Cursos
                 </button>
                 <div class="dropdown-menu bg-dark text-light" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="<?php echo $caminho; ?>html/"><i class="devicon-html5-plain"></i> HTML</a>
+                    <a class="dropdown-item" href="<?php echo $caminho; ?>"><i class="devicon-html5-plain"></i> HTML</a>
 
-                    <a class="dropdown-item" href="<?php echo $caminho; ?>css/"><i class="devicon-css3-plain"></i> CSS</a>
+                    <a class="dropdown-item" href="<?php echo $caminho; ?>"><i class="devicon-css3-plain"></i> CSS</a>
 
-                    <a class="dropdown-item" href="<?php echo $caminho; ?>javascript/"><i class="devicon-javascript-plain"></i> JavaScript</a>
+                    <a class="dropdown-item" href="<?php echo $caminho; ?>"><i class="devicon-javascript-plain"></i> JavaScript</a>
 
                     <!-- <a class="dropdown-item" href="<?php echo $caminho; ?>php/"><i class="devicon-php-plain"></i> PHP</a> -->
 
@@ -87,28 +87,28 @@ $caminho = 'http://localhost/lixeiravirtual/';
                     <i class="devicon-windows8-original"></i> SOs
                 </button>
                 <div class="dropdown-menu bg-dark text-light" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 11</a>
-                    <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 10</a>
-                    <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 8.1</a>
-                    <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 7</a>
-                    <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows Vista</a>
-                    <a class="dropdown-item" href="#">
+                    <!-- <a class="dropdown-item" href="<?php echo $caminho ?>sistemas-operacionais/win11.php">
+                        <i class="devicon-windows8-original"></i> Windows 11</a> -->
+                    <!-- <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 10</a> -->
+                    <!-- <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 8.1</a> -->
+                    <!-- <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 7</a> -->
+                    <!-- <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows Vista</a> -->
+                    <a class="dropdown-item" href="<?php $caminho ?>sistemas-operacionais/winxp.php>
                         <i class="devicon-windows8-original"></i> Windows XP</a>
-                    <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 98</a>
-                    <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 95</a>
-                    <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 3.0</a>
-                    <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 2.0</a>
-                    <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 1.0</a>
+                    <!-- <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 98</a> -->
+                    <!-- <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 95</a> -->
+                    <!-- <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 3.0</a> -->
+                    <!-- <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 2.0</a> -->
+                    <!-- <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 1.0</a> -->
                 </div>
             </li>
         </ul>
@@ -119,9 +119,9 @@ $caminho = 'http://localhost/lixeiravirtual/';
     <div class="row">
         <div id="menu" class="menu col-md-2">
             <p>Por Onde Começar?</p>
-            <a href="#">HTML</a>
-            <a href="#">CSS</a>
-            <a href="#">JavaScript</a>
+            <a href="<?php echo $caminho ?>html/"><i class="devicon-html5-plain"></i> HTML</a>
+            <a href="<?php echo $caminho ?>css/"><i class="devicon-css3-plain"></i> CSS</a>
+            <a href="<?php echo $caminho ?>javascript/"><i class="devicon-javascript-plain"></i> JavaScript</a>
         </div>
 
         <!-- AJUSTAR TAMANHO DO MENU -->

@@ -97,13 +97,13 @@ header #menu-icon {
     line-height: 7vh;
 }
 
-header > a:link,
-header > a:visited {
+header>a:link,
+header>a:visited {
     color: var(--branco);
 }
 
-header > a:hover,
-header > a:active {
+header>a:hover,
+header>a:active {
     color: var(--branco);
     text-decoration: none;
 }
@@ -339,17 +339,28 @@ div.lesson ul li {
     margin-bottom: 10px;
 }
 
-div.lesson div.code {
-    background-color: #222222;
-    border-left: 10px solid var(--verde);
+div.lesson div.code,
+div.lesson div.output {
     display: block;
     margin: 10px auto;
     padding: 20px;
     width: 90%;
 }
 
+div.lesson div.code {
+    background-color: #222222;
+    border-left: 10px solid var(--verde);
+}
+
+div.lesson div.output {
+    background-color: #222222;
+    border-left: 10px solid var(--azul-claro);
+}
+
 @media screen and (max-width: 767px) {
-    div.lesson div.code {
+
+    div.lesson div.code,
+    div.lesson div.output {
         width: 100%;
     }
 }
@@ -368,8 +379,25 @@ div.lesson div.code pre span.comentario {
     color: var(--verde);
 }
 
+div.lesson div.output pre {
+    color: white;
+    margin: 0 !important;
+}
+
+
+
+
+
+
+
+
 code {
     background-color: rgba(0, 200, 200);
     color: rgb(0, 0, 120);
     font-weight: bolder;
+}
+
+code a {
+    color: rgb(0, 0, 120);
+    text-decoration: underline;
 }
