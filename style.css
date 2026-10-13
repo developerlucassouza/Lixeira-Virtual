@@ -62,6 +62,7 @@ body {
     background-image: url('imgs/fundo-tech.jpg');
     background-attachment: fixed;
     overflow-x: hidden;
+    width: 100vw;
 }
 
 p {
