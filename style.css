@@ -304,14 +304,14 @@ div.so {
 @media screen and (max-width: 767px) {
     div.lesson,
     div.so {
-        width: 70%;
+        width: 90vw;
     }
 }
 
 @media screen and (min-width: 768px) {
     div.lesson,
     div.so {
-        width: 80%;
+        width: 80vw;
     }
 }
 
