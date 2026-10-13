@@ -82,7 +82,7 @@ header {
     justify-content: space-between;
     padding: 0px 10px !important;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 99;
 }
 
