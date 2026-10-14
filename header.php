@@ -16,6 +16,10 @@ $caminho = $_SERVER['REQUEST_SCHEME'] . '://' . $caminho . '/';
 
     <link rel="shortcut icon" href="<?php echo $caminho ?>imgs/lixeira.png" type="image/x-icon">
 
+    <!-- Google Adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5608490840122753"
+     crossorigin="anonymous"></script>
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
