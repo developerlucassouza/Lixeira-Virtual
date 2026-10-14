@@ -97,7 +97,7 @@ $caminho = $_SERVER['REQUEST_SCHEME'] . '://' . $caminho . '/';
                 </div>
             </li>
 
-            <li class="dropdown">
+            <!-- <li class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="devicon-windows8-original"></i> SOs
@@ -111,22 +111,22 @@ $caminho = $_SERVER['REQUEST_SCHEME'] . '://' . $caminho . '/';
                         <i class="devicon-windows8-original"></i> Windows 8.1</a>
                     <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/win7.php">
                         <i class="devicon-windows8-original"></i> Windows 7</a>
-                    <!-- <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/winvista.php">
-                        <i class="devicon-windows8-original"></i> Windows Vista</a> -->
+                    <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/winvista.php">
+                        <i class="devicon-windows8-original"></i> Windows Vista</a>
                     <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/winxp.php">
                         <i class=" devicon-windows8-original"></i> Windows XP</a>
-                    <!-- <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 98</a> -->
-                    <!-- <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 95</a> -->
-                    <!-- <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 3.0</a> -->
-                    <!-- <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 2.0</a> -->
-                    <!-- <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 1.0</a> -->
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 98</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 95</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 3.0</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 2.0</a>
+                    <a class="dropdown-item" href="#">
+                        <i class="devicon-windows8-original"></i> Windows 1.0</a>
                 </div>
-            </li>
+            </li> -->
         </ul>
     </header>
 
@@ -138,8 +138,8 @@ $caminho = $_SERVER['REQUEST_SCHEME'] . '://' . $caminho . '/';
             <a href="<?= $caminho ?>html/"><i class="devicon-html5-plain"></i> HTML</a>
             <a href="<?= $caminho ?>css/"><i class="devicon-css3-plain"></i> CSS</a>
             <a href="<?= $caminho ?>javascript/"><i class="devicon-javascript-plain"></i> JavaScript</a>
-            <a href="<?= $caminho ?>sistemas-operacionais/"><i class="fa-brands fa-windows"></i> Sistemas
-                Operacionais</a>
+            <!-- <a href="<?= $caminho ?>sistemas-operacionais/"><i class="fa-brands fa-windows"></i> Sistemas
+                Operacionais</a> -->
         </div>
 
         <!-- AJUSTAR TAMANHO DO MENU -->
