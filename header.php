@@ -30,7 +30,7 @@ $caminho = $_SERVER['REQUEST_SCHEME'] . '://' . $caminho . '/';
 
 
     <!-- CSS Próprio -->
-    <link rel="stylesheet" href="<?php echo $caminho ?>style.css">
+    <link rel="stylesheet" href="<?= $caminho ?>style.css">
 </head>
 
 
@@ -48,7 +48,7 @@ $caminho = $_SERVER['REQUEST_SCHEME'] . '://' . $caminho . '/';
 
     <header class="nav bg-dark text-light">
         <i id="menu-icon" class="fa-solid fa-bars h-auto"></i>
-        <a href="<?php echo $caminho ?>">
+        <a href="<?= $caminho ?>">
             <h2 class="nav-item"><i class="fa-solid fa-trash-can"></i> Lixeira Virtual</h2>
         </a>
         <ul class="nav-item">
@@ -103,17 +103,17 @@ $caminho = $_SERVER['REQUEST_SCHEME'] . '://' . $caminho . '/';
                     <i class="devicon-windows8-original"></i> SOs
                 </button>
                 <div class="dropdown-menu bg-dark text-light" aria-labelledby="dropdownMenuButton">
-                    <!-- <a class="dropdown-item" href="<?php echo $caminho ?>sistemas-operacionais/win11.php">
-                        <i class="devicon-windows8-original"></i> Windows 11</a> -->
-                    <!-- <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 10</a> -->
-                    <!-- <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 8.1</a> -->
-                    <!-- <a class="dropdown-item" href="#">
-                        <i class="devicon-windows8-original"></i> Windows 7</a> -->
-                    <!-- <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/win11.php">
+                        <i class="devicon-windows8-original"></i> Windows 11</a>
+                    <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/win10.php">
+                        <i class="devicon-windows8-original"></i> Windows 10</a>
+                    <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/win8.1.php">
+                        <i class="devicon-windows8-original"></i> Windows 8.1</a>
+                    <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/win7.php">
+                        <i class="devicon-windows8-original"></i> Windows 7</a>
+                    <!-- <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/winvista.php">
                         <i class="devicon-windows8-original"></i> Windows Vista</a> -->
-                    <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/winxp.php>
+                    <a class="dropdown-item" href="<?= $caminho ?>sistemas-operacionais/winxp.php">
                         <i class=" devicon-windows8-original"></i> Windows XP</a>
                     <!-- <a class="dropdown-item" href="#">
                         <i class="devicon-windows8-original"></i> Windows 98</a> -->
