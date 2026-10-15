@@ -44,7 +44,7 @@ include_once '../header.php';
         <hr>
 
         <li class="">
-            <code>fixed</code>: Fundo **fica fixo** na tela, mesmo quando você rola a página
+            <code>fixed</code>: Fundo fica fixo na tela, mesmo quando você rola a página
             <div class="code">
                 <pre><i>seletor</i> { <em>background-attachment: fixed;</em> }</pre>
             </div>
